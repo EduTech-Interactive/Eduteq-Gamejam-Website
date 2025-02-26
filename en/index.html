@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow-x: hidden">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Website Title</title>
+    <link href="./../output.css" rel="stylesheet" />
+    <link href="./../mouse.css" rel="stylesheet" />
+    <link href="../aos/aos.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <script src="../aos/aos.js"></script>
+  </head>
+  <body style="overflow: initial !important; overflow-x: hidden">
+    <header
+      id="header"
+      class="bg-accent-blue py-4 fixed top-0 z-30 w-full duration-300 transition-all ease-in-out"
+    >
+      <div
+        class="max-w-7xl m-auto px-5 justify-between items-center flex flex-wrap"
+      >
+        <div class="flex items-center flex-shrink-0">
+          <img style="max-width: 150px" src="../images/logo-white.png" />
+        </div>
+        <div class="flex lg:hidden">
+          <button
+            id="nav-toggle"
+            type="button"
+            class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="w-full lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0"
+          id="nav-content"
+        >
+          <nav class="lg:flex lg:space-x-6">
+            <div class="py-3 lg:py-0">
+              <a href="#home" class="menu-item">Home</a>
+            </div>
+            <div class="py-3 lg:py-0">
+              <a href="#about" class="menu-item">About</a>
+            </div>
+            <div class="py-3 lg:py-0">
+              <a href="#team" class="menu-item">Team</a>
+            </div>
+            <div class="py-3 lg:py-0">
+              <a href="#event" class="menu-item">Event</a>
+            </div>
+            <div class="py-3 lg:py-0">
+              <a
+                href="../index.html"
+                class="text-white hover:text-accent-yellow transition ease-in-out"
+                >French/Français</a
+              >
+            </div>
+            <div class="py-3 lg:py-0 lg:hidden">
+              <div>
+                <a
+                  href="https://forms.gle/NcCDAuze5osukE3h6"
+                  class="rounded-full bg-accent-dark text-white hover:bg-accent-yellow hover:text-black transition ease-in-out py-2 px-4"
+                  >Join Now!</a
+                >
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="hidden lg:block">
+          <div class="bt-shake">
+            <a
+              href="https://forms.gle/NcCDAuze5osukE3h6"
+              class="rounded-full bg-accent-dark text-white hover:bg-accent-yellow hover:text-black transition ease-in-out py-2 px-4"
+              >Join Now!</a
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="relative">
+      <div class="bg-cover py-32 relative bg-accent-blue" style="height: 650px">
+        <div class="absolute top-48 w-full">
+          <h1
+            data-aos="zoom-in"
+            class="text-5xl md:text-7xl text-white text-center mb-5"
+          >
+            MAKE A <br />DIFFERENCE!
+          </h1>
+          <h1 data-aos="fade-up" class="text-xl text-white text-center">
+            Dream it. Build it.
+          </h1>
+          <div data-aos="fade-up" class="flex justify-center">
+            <div class="mouse text">
+              <div class="roll"></div>
+              <div class="rollshadow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1000 100"
+        preserveAspectRatio="none"
+        class="absolute bottom-[-1px]"
+        style="fill: white"
+      >
+        <path
+          d="M790.5,93.1c-59.3-5.3-116.8-18-192.6-50c-29.6-12.7-76.9-31-100.5-35.9c-23.6-4.9-52.6-7.8-75.5-5.3
+          c-10.2,1.1-22.6,1.4-50.1,7.4c-27.2,6.3-58.2,16.6-79.4,24.7c-41.3,15.9-94.9,21.9-134,22.6C72,58.2,0,25.8,0,25.8V100h1000V65.3
+          c0,0-51.5,19.4-106.2,25.7C839.5,97,814.1,95.2,790.5,93.1z"
+        ></path>
+      </svg>
+
+      <!--<svg
+        class="absolute bottom-0"
+        style="fill: white"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1000 100"
+        preserveAspectRatio="none"
+      >
+        <path
+          class="elementor-shape-fill"
+          d="M615.2,96.7C240.2,97.8,0,18.9,0,0v100h1000V0C1000,19.2,989.8,96,615.2,96.7z"
+        ></path>
+      </svg>-->
+
+      <!--<img
+        style="max-width: 400px; filter: hue-rotate(270deg)"
+        class="absolute bottom-[-200px] right-32 z-20 animate-bounce"
+        src="images/gamepad.png"
+      />-->
+    </div>
+
+    <!-- Introduction Part 1 -->
+    <!--<section
+      class="bg-right-bottom py-24 pb-48 bg-no-repeat bg-contain"
+      style="background-image: url('images/about.jpg')"
+    >-->
+    <section id="home" class="bg-right-bottom py-24">
+      <div class="max-w-7xl m-auto px-5 md:flex">
+        <div class="md:w-1/2">
+          <div data-aos="fade-right">
+            <img style="max-width: 50px" src="../images/pixel-heart.gif" />
+            <h3 class="text-xl mb-5 text-accent-blue">SHAPE THE FUTURE</h3>
+            <h2 class="text-5xl mb-12">
+              WHERE SCIENCE, EDUCATION AND GAMES MEET
+            </h2>
+            <p class="mb-5">
+              It's time to dive into the ultimate quest to create an epic
+              educational science game that'll revolutionize the way we learn
+              science!
+            </p>
+            <p>
+              Do you have what it takes to turn learning into an adventure? Then
+              join us for this exciting game jam and help students all over
+              Quebec with your games!
+            </p>
+          </div>
+        </div>
+        <div class="md:w-1/2 py-24">
+          <!--<img style="max-width: 400px" class="m-auto" src="images/image.png" />-->
+          <img
+            style="max-width: 500px; filter: hue-rotate(16deg)"
+            class="animate-bounce ml-auto w-full"
+            src="../images/gamepad-6646645_1280.png"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Introduction Part 1 -->
+    <section id="about" class="bg-accent-yellow relative py-32">
+      <div class="max-w-7xl m-auto px-5 py-16 md:py-32">
+        <div class="md:flex md:space-x-10">
+          <div class="md:w-1/3 relative">
+            <img class="hidden md:block" src="../images/deco.png" />
+            <img class="mb-10 block md:hidden" src="../images/deco-m.png" />
+          </div>
+          <div class="md:w-2/3">
+            <h2 data-aos="fade-up" class="text-3xl mb-10">About</h2>
+
+            <p data-aos="fade-up" class="mb-5">
+              Welcome to the UDEM Game Jam! We all knew this day would come...
+            </p>
+            <p data-aos="fade-up" class="mb-5">
+              It's time to dive into the ultimate quest to create an epic
+              educational science game that'll revolutionize the way we learn
+              science in 48 hours! Do you have what it takes to turn learning
+              into an adventure?
+            </p>
+            <p data-aos="fade-up" class="mb-5">
+              Then join us for this exciting game jam and help students all over
+              Quebec with your games!
+            </p>
+            <h5 data-aos="fade-up" class="text-lg mb-2">
+              It's your chance to:
+            </h5>
+            <ul data-aos="fade-up" class="list-disc pl-5">
+              <li>Collaborate and connect with people that are as excited</li>
+              <li>Help students across Quebec</li>
+              <li>Turn long boring lessons into fun and engaging activities</li>
+              <li>Make learning more accessible</li>
+              <li>Build the next amazing science game</li>
+              <li>
+                Exciting prizes with a total of 1500 CAD for selected teams
+              </li>
+            </ul>
+            <div data-aos="fade-up" class="mt-20 grid md:grid-cols-3 gap-12">
+              <div class="p-10 bg-accent-red text-center text-white">
+                <i class="fa fa-flask text-4xl"></i>
+                <h2 class="mt-2">Chemistry</h2>
+              </div>
+              <div class="p-10 bg-accent-green text-center text-white">
+                <i class="fa fa-dna text-4xl"></i>
+                <h2 class="mt-2">Biology</h2>
+              </div>
+              <div class="p-10 bg-accent-lightblue text-center text-white">
+                <i class="fa fa-microscope text-4xl"></i>
+                <h2 class="mt-2">Physics</h2>
+              </div>
+            </div>
+
+            <h2
+              data-aos="fade-up"
+              class="text-center md:text-left text-4xl md:text-6xl mt-24 mb-16"
+            >
+              What you will get
+            </h2>
+            <div
+              data-aos="fade-up"
+              class="grid sm:grid-cols-2 lg:grid-cols-4 gap-12"
+            >
+              <div class="text-center sm:text-left">
+                <h6 class="text-8xl mb-4 font-shoulder font-normal">01</h6>
+                <p class="text-2xl">
+                  Meet New <br />
+                  People
+                </p>
+              </div>
+              <div class="text-center sm:text-left">
+                <h6 class="text-8xl mb-4 font-shoulder font-normal">02</h6>
+                <p class="text-2xl">
+                  Learn from <br />
+                  Speakers
+                </p>
+              </div>
+              <div class="text-center sm:text-left">
+                <h6 class="text-8xl mb-4 font-shoulder font-normal">03</h6>
+                <p class="text-2xl">
+                  Expand Your <br />
+                  Network
+                </p>
+              </div>
+              <div class="text-center sm:text-left">
+                <h6 class="text-8xl mb-4 font-shoulder font-normal">04</h6>
+                <p class="text-2xl">
+                  Enjoy & <br />
+                  Have fun
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg
+        class="absolute bottom-0 rotate-180"
+        style="fill: white"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1000 100"
+        preserveAspectRatio="none"
+      >
+        <path
+          class="elementor-shape-fill"
+          opacity="0.33"
+          d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"
+        ></path>
+        <path
+          class="elementor-shape-fill"
+          opacity="0.66"
+          d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z"
+        ></path>
+        <path
+          class="elementor-shape-fill"
+          d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"
+        ></path>
+      </svg>
+    </section>
+
+    <section id="team" class="py-32">
+      <div class="max-w-7xl m-auto px-5">
+        <h3 data-aos="fade-up" class="text-3xl mb-5 text-accent-blue">Meet</h3>
+        <h2 data-aos="fade-up" class="text-7xl mb-32">The Team</h2>
+        <div data-aos="fade-up" class="grid md:grid-cols-4 gap-12">
+          <div class="relative">
+            <img
+              class="rounded-full"
+              src="../images/team1.jpg"
+              style="
+                mask-image: url(../images/mask.png);
+                mask-repeat: no-repeat;
+                mask-size: 100%;
+              "
+            />
+
+            <div class="text-center">
+              <h3 class="text-xl">Neerusha Gokool</h3>
+              <p>Founder / EduteQ</p>
+            </div>
+          </div>
+
+          <div class="relative">
+            <img
+              class="rounded-full"
+              src="../images/person.jpg"
+              style="
+                mask-image: url(../images/mask.png);
+                mask-repeat: no-repeat;
+                mask-size: 100%;
+              "
+            />
+
+            <div class="text-center">
+              <h3 class="text-xl">Nadim Boukhira</h3>
+              <p>Physics Instructor / Dawson</p>
+            </div>
+          </div>
+
+          <div class="relative">
+            <img
+              class="rounded-full"
+              src="../images/Tania_Peres.jpg"
+              style="
+                mask-image: url(../images/mask.png);
+                mask-repeat: no-repeat;
+                mask-size: 100%;
+              "
+            />
+
+            <div class="text-center">
+              <h3 class="text-xl">Tania Peres</h3>
+              <p>Chemistry Instructor / John Abbott College</p>
+            </div>
+          </div>
+          <div class="relative">
+            <img
+              class="w-full rounded-full"
+              src="../images/team3.jpg"
+              style="
+                mask-image: url(../images/mask.png);
+                mask-repeat: no-repeat;
+                mask-size: 100%;
+              "
+            />
+            <div class="text-center">
+              <h3 class="text-xl">Sarah Katerji</h3>
+              <p>Student / UDEM</p>
+            </div>
+          </div>
+         
+
+          <div class="relative">
+            <img
+              class="w-full rounded-full"
+              src="../images/team2.jpg"
+              style="
+                mask-image: url(../images/mask.png);
+                mask-repeat: no-repeat;
+                mask-size: 100%;
+              "
+            />
+            <div class="text-center">
+              <h3 class="text-xl">Abigail Lopez</h3>
+              <p>Student / Concordia</p>
+            </div>
+          </div>
+          
+          <div class="relative">
+            <img
+              class="w-full rounded-full"
+              src="../images/team4.png"
+              style="
+                mask-image: url(../images/mask.png);
+                mask-repeat: no-repeat;
+                mask-size: 100%;
+              "
+            />
+            <div class="text-center">
+              <h3 class="text-xl">Taeif Ahmed</h3>
+              <p>Student / Concordia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Register -->
+    <section
+      id="event"
+      style="
+        background-image: url('../images/3d-render-game-equipment-console-headset-free-png.webp');
+      "
+      class="bg-accent-light pt-16 pb-0 md:py-32 relative bg-no-repeat bg-right-bottom bg-contain bg-blend-luminosity"
+    >
+      <div class="max-w-7xl m-auto px-5 mb-20 md:mb-0">
+        <div class="lg:w-1/2">
+          <div data-aos="fade-up">
+            <h3 class="text-2xl mb-5">Register</h3>
+            <h2 class="text-6xl mb-8">JOIN US TODAY!</h2>
+            <p class="mb-8">
+              Date: Friday 22nd to Sunday 24th March
+              <br />
+              Location: Faculté des sciences de l'éducation, Pavillon
+              Marie-Victorin, UdeM
+            </p>
+            <div class="mb-16">
+              <a
+                href="https://forms.gle/NcCDAuze5osukE3h6"
+                class="rounded-full bg-accent-dark text-white hover:bg-accent-yellow hover:text-black transition ease-in-out py-2 px-4"
+                >Join Now!</a
+              >
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+              <div class="bg-accent-yellow rounded-xl text-center px-8 py-5">
+                <h6 id="weeks" class="text-8xl mb-4 font-shoulder font-normal">
+                  02
+                </h6>
+                <p class="text-xl">weeks</p>
+              </div>
+              <div class="bg-accent-yellow rounded-xl text-center px-8 py-5">
+                <h6 id="days" class="text-8xl mb-4 font-shoulder font-normal">
+                  03
+                </h6>
+                <p class="text-xl">days</p>
+              </div>
+              <div class="bg-accent-yellow rounded-xl text-center px-8 py-5">
+                <h6 id="hours" class="text-8xl mb-4 font-shoulder font-normal">
+                  22
+                </h6>
+                <p class="text-xl">hours</p>
+              </div>
+              <div class="bg-accent-yellow rounded-xl text-center px-8 py-5">
+                <h6
+                  id="minutes"
+                  class="text-8xl mb-4 font-shoulder font-normal"
+                >
+                  6
+                </h6>
+                <p class="text-xl">minutes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        style="overflow-x: hidden"
+        class="md:absolute md:bottom-[-50px] md:right-0"
+      >
+        <div data-aos="fade-left">
+          <div class="max-w-7xl bg-accent-blue px-5 md:pr-36">
+            <h2 class="text-4xl text-white text-center md:text-right py-10">
+              DON'T WAIT! JOIN THE ADVENTURE NOW.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="pt-24 pb-12">
+      <div
+        class="max-w-7xl px-5 m-auto md:flex md:justify-between md:items-center"
+      >
+        <div>
+          <img
+            class="m-auto mb-5 md:m-0"
+            style="width: 150px"
+            src="../images/logo-black.png"
+          />
+        </div>
+        <div class="text-center md:text-left">
+          © 2024 GameJam. All Rights Reserved. Credits:
+          <a
+            class="text-accent-blue underline"
+            href="https://www.vecteezy.com/members/misbahihsan"
+            >Images</a
+          >,
+          <a
+            class="text-accent-blue underline"
+            href="https://tenor.com/view/pixel-heart-gif-17445074855309251749"
+            >GIF</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="../script.js"></script>
+</html>
