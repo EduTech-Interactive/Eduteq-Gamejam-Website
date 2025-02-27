@@ -55,7 +55,7 @@ function calculateTimeDifference(targetDate) {
 }
 
 // Set your target date in ISO format (YYYY-MM-DDTHH:mm:ss.sssZ)
-const targetDate = "2024-03-22T18:00:00.000Z";
+const targetDate = "2025-05-03T18:00:00.000Z";
 
 // Update the countdown every second
 setInterval(() => {
