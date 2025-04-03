@@ -779,12 +779,12 @@ video {
 
 .bg-accent-blue{
   --tw-bg-opacity: 1;
-  background-color: rgb(33 80 122 / var(--tw-bg-opacity));
+  background-color: rgb(86 179 233 / var(--tw-bg-opacity));
 }
 
 .bg-accent-dark{
   --tw-bg-opacity: 1;
-  background-color: rgb(85 148 204 / var(--tw-bg-opacity));
+  background-color: rgb(8 84 172 / var(--tw-bg-opacity));
 }
 
 .bg-accent-green{
@@ -809,7 +809,7 @@ video {
 
 .bg-accent-yellow{
   --tw-bg-opacity: 1;
-  background-color: rgb(240 243 189 / var(--tw-bg-opacity));
+  background-color: rgb(255 241 191 / var(--tw-bg-opacity));
 }
 
 .bg-contain{
